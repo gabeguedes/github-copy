@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#topLeft {
+    margin-left: 235px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#header {
+    color: #4c4c4c;
+}
+
+#git {
+    color: black;
+}
+
+#topRight {
+    position: relative;
+    float: right;
+    list-style-type: none;
+    margin-right: 235px;
+    margin-top: -25px;
+    font-size: 17px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    color: #4c4c4c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+#mainImg {
+    margin-top: 30px;
+    float: left;
+    height: 480px;
+    width: 100%;
+    position: relative;
+    font-family: Verdana;
+    z-index: 5
+}
+
+#mainImg img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#Blue {
+    position: absolute;
+    background-color: #1253df;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    opacity: .5;
+}
+
+#mainImg div {
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 78px;
+    width: 80%;
+}
+
+#paraOne {
+    color: white;
+    font-size: 53px;
+    font-weight: 100;
+    letter-spacing: -2px;
+}
+
+#paraTwo {
+    color: white;
+    margin-top: 10px;
+    font-weight: lighter;
+    line-height: 160%;
+    font-size: 120%;
+    word-spacing: -2px;
+}
+
+#linkTrain {
+    border-radius: 5px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 15px;
+    font-size: 120%;
+    word-spacing: -2px;
+}
+
+
+#linkTrain:hover {
+    background-color: white;
+    color: #1253df;
+}
+
+#paraThree {
+    position: relative;
+    top: 90px;
+    font-size: 230%;
+    color: #4c4c4c;
+    text-align: center;
+    z-index: 1;
+}
+
+#paraFour {
+    position: relative;
+    top: 102px;
+    font-size: 130%;
+    color: #aba5a5;
+    text-align: center;
+    line-height: 140%;
+}
+
+#icons {
+    position: relative;
+    top: 125px;
+    text-align: center;
+}
+
+#icons:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
+#centerImg {
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+#iconText {
+    width: 100%;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    color: #4c4c4c;
+}
+
+#iconText li {
+    float: left;
+    display: inline;
+    margin-top: 110px;
+    font-size: 150%;
+}
+
+#iconText:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#Mig {
+    padding-right: 40px;
+}
+
+#Imp {
+    padding-left: 90px;
+}
+
+#AdmM {
+    padding-left: 150px;
+    padding-right: 80px;
+}
+
+#iconExp {
+    width: 100%;
+    position: relative;
+    top: -10px;
+    color: #4c4c4c;
+}
+
+#iconExp li {
+    float: left;
+    display: inline;
+    text-align: center;
+    margin: 10px;
+    line-height: 150%;
+}
+
+#table1, #table2 {
+    display: table;
+    margin: 0 auto;
+}
+
+#iconExp:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#contactLink {
+     border-radius: 5px;
+     position: absolute;
+     color: #1253df;
+     text-decoration: none;
+     margin-top: 20px;
+     margin-left: 40.9%;
+     margin-right: 40%;
+     border: 1px solid #1253df;
+     padding: 15px;
+ }
+
+#contactLink:hover {
+    background-color: #1253df;
+    color: white;
+}
+
+#contactLink:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#white {
+    background-color: white;
+    height: 170px;
+}
+
+#bottom {
+    margin-top: 47px;
+}
+
+#leftImg {
+    margin-left: 200px;
+    width: 70%
+}
+
+#learning {
+    position: absolute;
+    float: right;
+    margin-top: -10px;
+    left: 535px;
+    color: #4c4c4c;
+}
+
+#learning ul {
+    padding: 20px;
+}
+
+#minutes {
+    font-size: 200%;
+}
+
+#tutorial {
+    margin-top: -10px;
+    line-height: 150%;
+}
+
+#tryGitLink {
+    position: absolute;
+    float: right;
+    left: 565px;
+    margin-top: 200px;
+    border-radius: 5px;
+    color: #1253df;
+    text-decoration: none;
+    border: 1px solid #1253df;
+    padding: 15px 10px 15px;
+}
+
+#tryGitLink:hover {
+    background-color: #1253df;
+    color: white;
+}
+
+#white2 {
+    height: 50px;
+}
+
+#footer {
+    display: inline;
+}
+
+#copyright {
+    position: relative;
+    top: 40px;
+    left: 200px;
+    font-size: 80%;
+    color: #4c4c4c;
+}
+
+#footer img {
+    display: block;
+    margin: auto;
+}
+
+#footLinks {
+    position: absolute;
+    top: 1685px;
+    right: 200px;
+    float: right;
+    font-size: 80%;
+}
+
+#footLinks a {
+    color: #33bdea;
+}
+
+#footLinks a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
